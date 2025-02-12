@@ -261,7 +261,7 @@ button[type="submit"] {
     .hideonpc{
         display: none;
     }
-    .feature{
+    .features{
         flex-direction: column;
     }
 }
