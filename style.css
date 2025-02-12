@@ -109,7 +109,9 @@ nav li:first-child{
     outline-offset: 0.20rem;
 }
 
-/* *************** product *******************/,
+/* *************** product *******************/
+
+
 
 .product{
     display: flex;
@@ -249,17 +251,18 @@ button[type="submit"] {
 @media screen and (min-width:400px){
     .feature{
         width: 50%;
-    }
-    
+    } 
 }
+
 @media screen and (max-width:400px){
-     .feature{
+    .feature{
         width: 100%;
-    }
+    } 
     .features{
         flex-direction: column;
-    }
+    } 
 }
+
 @media(max-width:800px){
     .hideonmobile{
         display: none;
@@ -268,9 +271,6 @@ button[type="submit"] {
 @media(min-width:800px){
     .hideonpc{
         display: none;
-    }
-    .features{
-        flex-direction: column;
     }
 }
 .clearfix::after,
