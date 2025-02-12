@@ -150,7 +150,6 @@ nav li:first-child{
     cursor: pointer;
     display: flex;
     flex-wrap: wrap;
-    width: 50%;
 }
 .feature{
       padding: 2.5rem;
@@ -247,7 +246,16 @@ button[type="submit"] {
     transform: translateY(-5px);
 }
 /* ****************** media queary ****************** */
+@media screen and (min-width:400px){
+    .feature{
+        width: 50%;
+    }
+    
+}
 @media screen and (max-width:400px){
+     .feature{
+        width: 100%;
+    }
     .features{
         flex-direction: column;
     }
