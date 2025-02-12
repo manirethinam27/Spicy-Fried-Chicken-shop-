@@ -109,9 +109,7 @@ nav li:first-child{
     outline-offset: 0.20rem;
 }
 
-/* *************** product *******************/
-
-
+/* *************** product *******************/,
 
 .product{
     display: flex;
@@ -262,6 +260,9 @@ button[type="submit"] {
 @media(min-width:800px){
     .hideonpc{
         display: none;
+    }
+    .feature{
+        flex-direction: column;
     }
 }
 .clearfix::after,
