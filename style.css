@@ -249,6 +249,7 @@ button[type="submit"] {
 /* ****************** media queary ****************** */
 @media screen and (max-width:400px){
     .features{
+        width:100%;
         flex-direction: column;
     }
 }
