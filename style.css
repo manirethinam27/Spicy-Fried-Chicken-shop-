@@ -250,7 +250,9 @@ button[type="submit"] {
     .feature{
         width: 50%;
     }
-    
+    .features{
+        flex-direction: column;
+    }
 }
 @media(max-width:800px){
     .hideonmobile{
